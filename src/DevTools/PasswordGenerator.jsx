@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Copy, RefreshCw, RotateCcw } from 'lucide-react'
-import bgImage from 'D:/Akram/Project/Tools app/tools-website/src/assets/background/bgimage.jpg'
+import bgImage from '../assets/background/bgimage.jpg'
 
 export default function PasswordGenerator() {
   const [password, setPassword] = useState('')

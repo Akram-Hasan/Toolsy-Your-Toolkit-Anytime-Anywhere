@@ -1,9 +1,7 @@
-'use client'
-
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Copy } from 'lucide-react'
-import bgImage from 'D:/Akram/Project/Tools app/tools-website/src/assets/background/bgimage.jpg'
+import bgImage from '../assets/background/bgimage.jpg'
 
 export default function ColorPicker() {
   const [color, setColor] = useState('#00FFFF')
