@@ -29,6 +29,7 @@ import QR from '../assets/Tools-Images/OR-code-generator.png'
 import Age from '../assets/Tools-Images/Age-calculator.png'
 import BMI from '../assets/Tools-Images/BMI-calculator.png'
 import Password from '../assets/Tools-Images/Password-generator.png'
+import Footer from '../components/Footer';
 
 const categories = [
   {
@@ -127,7 +128,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
+      <div className="max-w-7xl mx-auto mb-20 px-6 sm:px-10 lg:px-16">
         {categories.map((category, index) => (
           <div key={category.name} data-aos="fade-up" className="mt-16">
             <h2 className="text-6xl text-center font-bold mb-6 bg-gradient-to-r from-cyan-600 to-blue-900 bg-clip-text text-transparent">
@@ -141,6 +142,7 @@ export default function HomePage() {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
   );
 }
