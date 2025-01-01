@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Copy } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import bgImage from '../assets/background/bgimage.jpg'
 
 export default function ColorPicker() {
@@ -24,6 +26,14 @@ export default function ColorPicker() {
         transition={{ duration: 0.6 }}
         className="backdrop-blur-lg bg-gradient-to-br from-gray-900 via-gray-800 to-black p-10 rounded-lg max-w-4xl"
       >
+      {/* Back Link
+      <Link
+          to="/"
+          className="inline-flex items-center text-cyan-500 hover:text-cyan-400 transition-colors duration-200 mb-6"
+        >
+          <ArrowLeft className="mr-2" size={20} />
+          Back to Tools
+        </Link> */}
         <h1 className="text-4xl font-extrabold text-white text-center mb-10">Color Picker</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <motion.div

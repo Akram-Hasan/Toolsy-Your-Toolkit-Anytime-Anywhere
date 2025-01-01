@@ -57,14 +57,14 @@ export default function PercentageCalculator() {
         transition={{ duration: 0.6 }}
         className="relative z-10 backdrop-blur-lg bg-gradient-to-br from-gray-900 via-gray-800 to-black p-10 rounded-3xl shadow-2xl max-w-2xl w-full"
       >
-        {/* Back Link */}
+        {/* Back Link
         <Link
           to="/"
           className="inline-flex items-center text-cyan-500 hover:text-cyan-400 transition-colors duration-200 mb-6"
         >
           <ArrowLeft className="mr-2" size={20} />
           Back to Tools
-        </Link>
+        </Link> */}
 
         {/* Title */}
         <h1 className="text-5xl font-extrabold text-white text-center mb-8">

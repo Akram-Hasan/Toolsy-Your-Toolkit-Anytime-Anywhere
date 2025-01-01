@@ -9,7 +9,7 @@ import StatisticsCalculator from './EducationalTools/StatisticsCalculator';
 import PercentageCalculator from './EducationalTools/PercentageCalculator'; 
 import QRCodeGenerator from './DevTools/QRcodegenerator';
 import AgeCalculator from './EverydayTools/Agecalc';
-import Calendar from './EverydayTools/Calender';
+import Calendar from './EverydayTools/Calendar';
 import BMICalculator from './EverydayTools/BMICalculator';
 
 export default function App() {
@@ -31,7 +31,7 @@ export default function App() {
         <Route path="/statistics" element={<StatisticsCalculator />} />
         <Route path="/age-calculator" element={<AgeCalculator />} />
         <Route path="/percentage-calculator" element={<PercentageCalculator />} />
-        <Route path="/calender" element={<Calendar />} />
+        <Route path="/calendar" element={<Calendar />} />
         <Route path="/BMI-Calculator" element={<BMICalculator />} />
 
         {/* Catch-all route for unmatched URLs */}
